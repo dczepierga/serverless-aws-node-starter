@@ -7,13 +7,14 @@ provider:
   region: ${opt:AWS_REGION, 'eu-west-1'}
 
 plugins:
+  - serverless-aws-documentation
   - serverless-offline
   - serverless-stack-output
 
 custom:
   output:
     file: .serverless/output.json
+  documentation: ${file(./docs/docs.yml):custom.documentation}
 
 functions:
-  hello:
-    handler: src/handler.hello
+  hello: ${file(./src/handler.yml):functions.hello}
