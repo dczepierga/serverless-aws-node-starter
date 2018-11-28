@@ -22,6 +22,7 @@
     "build": "sls package",
     "commit": "git-cz",
     "deploy": "sls deploy",
+    "destroy": "sls remove",
     "docs": "npm run docs:download && npm run docs:server && npm run docs:open",
     "docs:download": "serverless downloadDocumentation --outputFileName=docs/api.json",
     "docs:open": "opn http://localhost:9200/",
