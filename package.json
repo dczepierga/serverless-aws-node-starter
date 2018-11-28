@@ -22,12 +22,14 @@
     "build": "sls package",
     "commit": "git-cz",
     "deploy": "sls deploy",
+    "start": "serverless offline start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
     "commitizen": "^3.0.5",
     "cz-conventional-changelog": "^2.1.0",
-    "serverless": "^1.33.2"
+    "serverless": "^1.33.2",
+    "serverless-offline": "^3.31.3"
   },
   "config": {
     "commitizen": {
