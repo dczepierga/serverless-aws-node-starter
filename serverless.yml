@@ -6,6 +6,9 @@ provider:
   stage: ${opt:STAGE, 'dev'}
   region: ${opt:AWS_REGION, 'eu-west-1'}
 
+plugins:
+  - serverless-offline
+
 functions:
   hello:
     handler: src/handler.hello
