@@ -13,6 +13,8 @@ provider:
   runtime: nodejs8.10
   stage: ${opt:STAGE, 'dev'}
   region: ${opt:AWS_REGION, 'eu-west-1'}
+  tags:
+    PROJECT: ${self:service}
 
 plugins:
   - serverless-aws-documentation
