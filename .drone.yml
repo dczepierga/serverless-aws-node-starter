@@ -1,0 +1,17 @@
+pipeline:
+  sls-install:
+    image: node:8.10
+    commands:
+      - npm install
+
+  sls-lint:
+    image: node:8.10
+    group: ci
+    commands:
+      - npm run lint
+
+  sls-test:
+    image: node:8.10
+    group: ci
+    commands:
+      - npm test -- --ci --coverage
