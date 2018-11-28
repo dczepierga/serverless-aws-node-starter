@@ -1,0 +1,24 @@
+{
+  "name": "serverless-aws-node-starter",
+  "version": "1.0.0",
+  "description": "AWS Node.js starter for the Serverless Framework",
+  "homepage": "https://github.com/dczepierga/serverless-aws-node-starter#readme",
+  "bugs": "https://github.com/dczepierga/serverless-aws-node-starter/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dczepierga/serverless-aws-node-starter.git"
+  },
+  "author": {
+    "name": "Damian Czepierga",
+    "email": "damian@czepierga.pl",
+    "url": "https://czepierga.pl"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": "8.10.0",
+    "npm": "5.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
