@@ -1,6 +1,9 @@
 functions:
   hello:
     handler: src/handler.hello
+    package:
+      include:
+        - src/handler.js
     events:
       - http:
           path: hello
