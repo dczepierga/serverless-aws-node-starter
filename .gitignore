@@ -7,3 +7,6 @@ jspm_packages
 
 # output directory for results
 .output
+
+## Swagger API file
+docs/api.json
