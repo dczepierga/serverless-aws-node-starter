@@ -29,7 +29,8 @@
     "commitizen": "^3.0.5",
     "cz-conventional-changelog": "^2.1.0",
     "serverless": "^1.33.2",
-    "serverless-offline": "^3.31.3"
+    "serverless-offline": "^3.31.3",
+    "serverless-stack-output": "^0.2.3"
   },
   "config": {
     "commitizen": {

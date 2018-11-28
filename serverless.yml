@@ -8,6 +8,11 @@ provider:
 
 plugins:
   - serverless-offline
+  - serverless-stack-output
+
+custom:
+  output:
+    file: .serverless/output.json
 
 functions:
   hello:
