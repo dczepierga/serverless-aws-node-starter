@@ -26,7 +26,9 @@
     "lint:fix": "eslint --fix src",
     "lint:watch": "esw --watch --fix src",
     "start": "serverless offline start",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watchAll"
   },
   "devDependencies": {
     "commitizen": "^3.0.5",
@@ -35,6 +37,7 @@
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-watch": "^4.0.2",
+    "jest": "^23.6.0",
     "serverless": "^1.33.2",
     "serverless-offline": "^3.31.3",
     "serverless-stack-output": "^0.2.3"
