@@ -1,0 +1,17 @@
+custom:
+  documentation:
+    version: '2'
+    summary: 'serverless-aws-node-starter'
+    description: 'AWS Node.js starter for the Serverless Framework'
+    models:
+      -
+        name: "awsError"
+        description: "AWS Internal Server Error - 502 Bad Gateway"
+        contentType: "application/json"
+        schema:
+          type: object
+          properties:
+            message:
+              type: string
+          required:
+            - message
