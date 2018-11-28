@@ -1,5 +1,13 @@
 service: serverless-aws-node-starter
 
+package:
+  individually: true
+  exclude:
+    - "*"
+    - .output/**
+    - docs/**
+    - src/**
+
 provider:
   name: aws
   runtime: nodejs8.10
