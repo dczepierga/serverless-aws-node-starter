@@ -1,17 +1,38 @@
-pipeline:
-  sls-install:
-    image: node:8.10
-    commands:
-      - npm install
+kind: pipeline
+name: default
 
-  sls-lint:
-    image: node:8.10
-    group: ci
-    commands:
-      - npm run lint
+steps:
+- name: sls-install
+  image: node:8.10
+  commands:
+    - npm install
 
-  sls-test:
-    image: node:8.10
-    group: ci
-    commands:
-      - npm test -- --ci --coverage
+- name: sls-lint
+  image: node:8.10
+  group: ci
+  commands:
+    - npm run lint
+
+- name: sls-test
+  image: node:8.10
+  group: ci
+  commands:
+    - npm test -- --ci --coverage
+
+- name: publish
+  image: node:8.10
+  group: cd
+  when:
+    branch:
+      - master
+    event:
+      - push
+    status:
+      - success
+  environment:
+    GH_TOKEN:
+      from_secret: GH_TOKEN
+    NPM_TOKEN:
+      from_secret: NPM_TOKEN
+  commands:
+    - npm run release
