@@ -15,3 +15,13 @@ pipeline:
     group: ci
     commands:
       - npm test -- --ci --coverage
+
+  publish:
+    image: node:8.10
+    group: cd
+    when:
+      branch: master
+      event: push
+      status: success
+    commands:
+      - npm run release
