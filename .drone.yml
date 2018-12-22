@@ -19,6 +19,17 @@ steps:
   commands:
     - npm test -- --ci --coverage
 
+- name: sls-coverage
+  image: plugins/codecov
+  group: ci
+  settings:
+    token:
+      from_secret: CODECOV_TOKEN
+    files:
+     - '*.xml'
+    paths:
+      - .output/reports/coverage
+
 - name: publish
   image: node:8.10
   group: cd
