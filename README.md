@@ -1,5 +1,5 @@
 # serverless-aws-node-starter
-[![Build Status](https://cloud.drone.io/api/badges/dczepierga/serverless-aws-node-starter/status.svg)](https://cloud.drone.io/dczepierga/serverless-aws-node-starter)
+[![Build Status](https://cloud.drone.io/api/badges/dczepierga/serverless-aws-node-starter/status.svg)](https://cloud.drone.io/dczepierga/serverless-aws-node-starter) [![Greenkeeper badge](https://badges.greenkeeper.io/dczepierga/serverless-aws-node-starter.svg)](https://greenkeeper.io/)
 
 Modern AWS Serverless Starter Kit built on top of the [Serverless Framework](https://serverless.com/), giving you support for:
 * JavaScript linting with [ESLint](https://eslint.org/) and style guide created by [Airbnb](https://github.com/airbnb/javascript)
