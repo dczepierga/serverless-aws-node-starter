@@ -46,7 +46,7 @@
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-watch": "^4.0.2",
-    "husky": "^1.2.0",
+    "husky": "^2.0.0",
     "jest": "^23.6.0",
     "opn-cli": "^4.0.0",
     "semantic-release": "^15.12.3",
