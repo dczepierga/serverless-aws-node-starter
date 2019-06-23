@@ -52,7 +52,7 @@
     "semantic-release": "^15.12.3",
     "serverless": "^1.33.2",
     "serverless-aws-documentation": "^1.1.0",
-    "serverless-offline": "^4.0.0",
+    "serverless-offline": "^5.4.4",
     "serverless-stack-output": "^0.2.3"
   },
   "config": {
