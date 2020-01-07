@@ -38,7 +38,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.4",
-    "@commitlint/config-conventional": "^7.1.2",
+    "@commitlint/config-conventional": "^8.3.4",
     "commitizen": "^3.0.5",
     "cz-conventional-changelog": "^2.1.0",
     "dockerode": "^2.5.7",
