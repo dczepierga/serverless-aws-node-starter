@@ -41,7 +41,7 @@
     "@commitlint/config-conventional": "^7.1.2",
     "commitizen": "^3.0.5",
     "cz-conventional-changelog": "^2.1.0",
-    "dockerode": "^2.5.7",
+    "dockerode": "^3.1.0",
     "eslint": "^5.9.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.14.0",
