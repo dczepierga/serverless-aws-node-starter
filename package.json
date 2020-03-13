@@ -43,7 +43,7 @@
     "cz-conventional-changelog": "^2.1.0",
     "dockerode": "^2.5.7",
     "eslint": "^5.9.0",
-    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-watch": "^5.0.0",
     "husky": "^2.0.0",
