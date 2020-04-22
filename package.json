@@ -49,7 +49,7 @@
     "husky": "^2.0.0",
     "jest": "^23.6.0",
     "opn-cli": "^4.0.0",
-    "semantic-release": "^15.12.3",
+    "semantic-release": "^17.0.7",
     "serverless": "^1.33.2",
     "serverless-aws-documentation": "^1.1.0",
     "serverless-offline": "^4.0.0",
