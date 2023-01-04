@@ -47,7 +47,7 @@
     "eslint-plugin-import": "^2.14.0",
     "eslint-watch": "^5.0.0",
     "husky": "^2.0.0",
-    "jest": "^23.6.0",
+    "jest": "^29.3.1",
     "opn-cli": "^4.0.0",
     "semantic-release": "^15.12.3",
     "serverless": "^1.33.2",
